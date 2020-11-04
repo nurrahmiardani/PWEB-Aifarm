@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+.menu{
+    position: fixed;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none ;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 48px;
+    color: #000000;
+    cursor: pointer;
+}
+.logo img{
+    width: 120px;
+    margin-top: -17px ;
+    margin-left: 20px;
+}
+.active{
+    color: #2EC67A;
+    text-decoration: none;
+}
+.tentang{
+    color: black;
+    text-decoration: none;
+}
+.tentang:hover{
+    color: #2EC67A;
+    transition: color .6s;
+}
+.jualbeli{
+    color: black;
+    text-decoration: none;
+}
+.jualbeli:hover{
+    color: #2EC67A;
+    transition: color .6s;
+}
+.daftar{
+    top: 38px;
+    right: -350px;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    border-color:  #2EC67A;
+    border-radius: 30px;
+    background-image: linear-gradient(#2EC67A,#2EC67A);
+    box-shadow: 0px 0px 20px #b9b9b9 
+}
+.daftar:hover{
+    top: 34px;
+    transition: top .7s;
+}
+.masuk{
+    top: 50px;
+    right: -230px;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+}
+.masuk:hover{
+    color: #2EC67A;
+    transition: color .6s;
+}
+.masuk img{
+    width: 30px;
+    margin: -4px 20px;
+}
+.deskripsi{
+    width: 80%;
+    height: 70%;
+    top: 30%;
+    left: 100px;
+    position: absolute;
+    color: #000000;
+}
+.text{
+    width: 50%;
+    float: left;
+}
+.text h1{
+    font-size: 40px;
+    width: 640px;
+    line-height: 60px;
+    position: relative;
+}
+.text p{
+    font-size: 18px;
+    width: 650px;
+    margin: 50px 0px 0px 0;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+.Tombol-pelajari{
+    line-height: 180px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 0px solid transparent;
+    border-color:  #c6e6d6;
+    border-radius: 10px;
+    background-image: linear-gradient(#c6e6d6,#c6e6d6);
+    box-shadow: 0px 6px 15px #b9b9b9 
+}
+.Tombol-pelajari:hover{
+    line-height: 170px;
+    transition: line-height .6s;
+}
+.gambar{
+    right: 0%;
+    top: 0%;
+    width: 60%;
+    position: absolute;
+    z-index: 0;
+}
+.gambar1{
+    right: 3%;
+    top: 5%;
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.gambar2{
+    right: 5%;
+    top: 17%;
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.gambar3{
+    left: 20%;
+    top: 120%;
+    width: 25%;
+    position: absolute;
+    z-index: 0;
+}
+.gambar4{
+    right: 5%;
+    top: 113%;
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+}
+.deskripsi2{
+    margin-top: 45%;
+    margin-right: 5%;
+    width: 80%;
+    height: 70%;
+    top: 30%;
+    left: 100px;
+    position: absolute;
+    color: #000000;
+}
+.text2{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.text2 h1{
+    font-size: 40px;
+    width: 640px;
+    line-height: 60px;
+    position: relative;
+}
+.text2 p{
+    font-size: 18px;
+    width: 650px;
+    margin: 50px 0px 0px 0;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.Tombol1{
+    line-height: 180px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 -5%;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 0px solid transparent;
+    border-color:  #c6e6d6;
+    border-radius: 10px;
+    background-image: linear-gradient(#c6e6d6,#c6e6d6);
+    box-shadow: 0px 6px 15px #b9b9b9 
+}
+.Tombol1:hover{
+    line-height: 170px;
+    transition: line-height .6s;
+}
