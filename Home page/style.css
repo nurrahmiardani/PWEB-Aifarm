@@ -133,8 +133,8 @@ body{
     box-shadow: 0px 6px 15px #b9b9b9 
 }
 .Tombol-pelajari:hover{
-    line-height: 170px;
-    transition: line-height .6s;
+    background-image: linear-gradient(#2EC67A,#2EC67A);
+    transition: .15s;
 }
 
 .gambar{
@@ -219,8 +219,8 @@ body{
     box-shadow: 0px 6px 15px #b9b9b9;
 }
 .Tombol1:hover{
-    line-height: 170px;
-    transition: line-height .6s;
+    background-image: linear-gradient(#2EC67A,#2EC67A);
+    transition: .15s;
 }
 
 .gambar5{
@@ -245,7 +245,7 @@ body{
     color: #000000;
 }
 .text3 h1{
-    padding-top: 225%;
+    padding-top: 227%;
     padding-left: 32%;
     font-size: 40px;
     width: 160%;
@@ -259,7 +259,7 @@ body{
 .text4{
     width: 40%;
     float: left;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 7%;
 }
 .text4 h1{
@@ -426,4 +426,192 @@ body{
 }
 .text5 h1 span{
     color: #E88E08;
+}
+.gambar11{
+    width: 15%;
+    margin-top: -100px;
+    margin-left: 85%;
+}
+.flex{
+    display: flex; 
+}
+.gambar12{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 16%;
+}
+.gambar13{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 8%;
+}
+.lainnya{
+    margin: 50px 45%;
+}
+.lainnya button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px 40px;
+    text-decoration: none;
+    border: 0px solid transparent;
+    border-color:  #c6e6d6;
+    border-radius: 10px;
+    background-image: linear-gradient(#c6e6d6,#c6e6d6);
+    box-shadow: 0px 6px 15px #b9b9b9 
+}
+.lainnya:hover button{
+    background-image: linear-gradient(#2EC67A,#2EC67A);
+    transition: .15s;
+}
+.gambar14{
+    margin-left: -110%;
+    margin-top: 25%;
+    width: 25%;
+    position: absolute;
+    z-index: 0;
+}
+.kotakk{
+    display: flex;
+    padding-left: 17%;
+    margin-top: -50px;
+    width: 75%;
+}
+.gambar15{
+    width: 60%;
+}
+.kotakk1{
+    text-align: center;
+    line-height: 40px;
+}
+.kotakk1 h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2EC67A;
+}
+.kotakk1 p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.kotakk1 p span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.gambar17{
+    margin-top: -22px;
+    width: 60%;
+}
+.kotakk2{
+    margin-left: 75px;
+    text-align: center;
+    line-height: 40px;
+}
+.kotakk2 h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2EC67A;
+}
+.kotakk2 p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.kotakk2 p span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.border{
+    margin-left: 17%;
+    margin-top: -21%;
+    width: 66%;
+    padding: 180px 0px;
+    border: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 75px #b9b9b9;
+    z-index: -99;   
+}
+.logoo{
+    width: 15%;
+    margin-top: -10%;
+    margin-left: 42%;
+}
+
+.flexx{
+    display: flex;
+    padding-left: 13%;
+    padding-top: 12%;
+    width: 75%;
+}
+.text6 h1,
+.text7 h1,
+.text8 h1{
+    line-height: 60px;
+    font-size: 25px;
+}
+.text6 p a,
+.text7 p a{
+    font-size: 22px;
+    color : #2EC67A;
+    line-height: 60px;
+    text-decoration: none;
+    padding-bottom: 75%;
+}
+.text6:hover p a{
+    color : #ffd000be;
+    transition: .6s;
+}
+.text6:hover p a {
+    color : #ffd000be;
+    transition: .6s;
+}
+.text7:hover p a {
+    color : #ffd000be;
+    transition: .6s;
+}
+.text7:hover p a {
+    color : #ffd000be;
+    transition: .6s;
+}
+
+.text7{
+    margin-left: 18%;
+}
+.text8{
+    margin-left: 25%;
+}
+
+.gambar18{
+    width: 100%;
+    margin-top: -120%;
+    z-index: -999;
+    position: relative;
+}
+
+.flexxx{
+    width: 20%;
+    display: flex;
+    padding-left: 62%;
+}
+.gambar19,
+.gambar20,
+.gambar21,
+.gambar22{
+    margin-top: -30%;
+    margin-left: 8%;
+}
+.gambar19:hover{
+    margin-top: -31%;
+    transition: .6s;
+}
+.gambar20:hover{
+    margin-top: -31%;
+    transition: .6s;
+}
+.gambar21:hover{
+    margin-top: -31%;
+    transition: .6s;
+}
+.gambar22:hover{
+    margin-top: -31%;
+    transition: .6s;
 }
