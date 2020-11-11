@@ -68,8 +68,9 @@ body {
 
 .daftar {
     top: 38px;
-    right: -200px;
-    position: absolute;
+    <<<<<<< HEAD right: -200px;
+    =======right: -250%;
+    >>>>>>>6b0d3cb46abdb7a08aa5666003e2102461729cd3 position: absolute;
     text-decoration: none;
     color: #000000;
     border: 2px solid transparent;
@@ -111,6 +112,7 @@ body {
     left: 100px;
     position: absolute;
     color: #000000;
+    animation-delay: 1s;
 }
 
 .text {
@@ -484,7 +486,7 @@ body {
 .gambar11 {
     width: 15%;
     margin-top: -100px;
-    margin-left: 85%;
+    margin-left: 82%;
 }
 
 .flex {
