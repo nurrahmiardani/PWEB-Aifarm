@@ -68,9 +68,8 @@ body {
 
 .daftar {
     top: 38px;
-    <<<<<<< HEAD right: -200px;
-    =======right: -250%;
-    >>>>>>>6b0d3cb46abdb7a08aa5666003e2102461729cd3 position: absolute;
+    right: -200px;
+    position: absolute;
     text-decoration: none;
     color: #000000;
     border: 2px solid transparent;
