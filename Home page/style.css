@@ -19,6 +19,7 @@ body {
     width: auto;
     position: fixed;
     z-index: 99;
+    margin-top: -1.4%;
 }
 
 .menu ul {
@@ -64,6 +65,18 @@ body {
 .jualbeli:hover {
     color: #2EC67A;
     transition: color .6s;
+}
+
+.borderrr {
+    margin-top: -3.8%;
+    padding: 4.7% 50%;
+    background-color: #ffffff;
+    border: 2 #000000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #b9b9b9;
+    position: fixed;
+    z-index: 98;
+    animation-delay: 2s;
 }
 
 .daftar {
