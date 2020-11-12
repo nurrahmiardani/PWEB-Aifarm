@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 body {
     width: 100%;
     height: 100%;
     background: #DBF0E5;
 }
-.background{
+
+.background {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -17,36 +19,42 @@ body {
     z-index: -1;
 }
 
-.text{
+.text {
     text-align: center;
     margin: auto;
     width: 50%;
     color: #ffffff;
 }
-.text p{
+
+.text p {
     padding-top: 11%;
     font-size: 20px;
     position: relative;
 }
-.text h1{
+
+.text h1 {
     font-size: 30px;
     margin: 30px 0px 0px 0;
     line-height: 40px;
     letter-spacing: 1px;
     position: relative;
 }
-.registration{
+
+.registration {
     width: 34%;
     height: 90%;
     color: #000000;
     margin: 10% auto;
 }
-.registration p{
-     font-size: 20px;
-     margin: 30px 0;
-     text-shadow: 0px 0px 20px #a8a8a8;;
+
+.registration p {
+    font-size: 20px;
+    margin: 30px 0;
+    text-shadow: 0px 0px 20px #a8a8a8;
+    ;
 }
-.registration input{
+
+.registration input {
     cursor: pointer;
     font-size: 16px;
     padding: 15px 10px;
@@ -56,28 +64,35 @@ body {
     outline-color: #56C28C;
     box-shadow: 0px 0px 15px #d4d4d4;
 }
-.pisah{
+
+.pisah {
     display: flex;
     width: 100%;
 }
-.nama{
+
+.nama {
     width: 45%;
 }
-.jenis{
+
+.jenis {
     width: 45%;
-    margin-left: 10%;   
+    margin-left: 10%;
 }
-.daerah{
+
+.daerah {
     width: 45%;
 }
-.provinsi{
+
+.provinsi {
     width: 45%;
-    margin-left: 10%;   
+    margin-left: 10%;
 }
-.ktp{
+
+.ktp {
     height: 400px;
 }
-#foto{
+
+#foto {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 120px 160px;
@@ -87,7 +102,9 @@ body {
     font-weight: 700;
     font-size: 10pt;
 }
-.registration button{
+
+.registration button {
+    text-decoration: none;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
@@ -97,12 +114,14 @@ body {
     border: 0;
     border-radius: 15px;
     background-color: #33d684;
-    box-shadow: 0px 0px 20px #b9b9b9   
+    box-shadow: 0px 0px 20px #b9b9b9;
 }
-.registration:hover button{
+
+.registration:hover button {
     margin: -10px 30%;
     transition: margin .6s;
 }
+
 .acc img {
     margin-left: -3%;
     margin-bottom: 20px;
