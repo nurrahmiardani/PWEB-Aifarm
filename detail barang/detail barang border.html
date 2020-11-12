@@ -15,6 +15,24 @@
             background: #ffffff;
         }
         
+        .borderrr {
+            margin-top: -3.8%;
+            padding: 4.7% 50%;
+            background-color: #ffffff;
+            border: 2 #000000;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px #b9b9b9;
+            position: fixed;
+            z-index: 98;
+            animation-delay: 2s;
+        }
+        
+        .menu {
+            margin-top: -1.4%;
+            position: fixed;
+            z-index: 99;
+        }
+        
         .menu ul {
             display: inline-flex;
             margin: 50px;
@@ -23,21 +41,26 @@
         .menu ul li {
             list-style: none;
             font-size: 20px;
+            margin: 0 50px;
             font-weight: 500;
-            margin: -10px 40px;
             color: #000000;
             cursor: pointer;
         }
         
         .logo img {
-            width: 130px;
-            margin-top: -20px;
+            width: 120px;
+            margin-top: -17px;
             margin-left: 20px;
         }
         
-        .home:hover {
-            color: #2EC67A;
-            transition: color .6s;
+        .active {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .tentang {
+            color: #000000;
+            text-decoration: none;
         }
         
         .tentang:hover {
@@ -45,27 +68,40 @@
             transition: color .6s;
         }
         
-        .active {
-            color: #2EC67A !important;
+        .jualbeli {
+            color: #2EC67A;
+            text-decoration: none;
+        }
+        
+        .active:hover {
+            color: #2EC67A;
+            transition: color .6s;
+        }
+        
+        .gambarnor img {
+            width: 5%;
+            top: 30px;
+            right: -200px;
+            position: absolute;
         }
         
         .masuk {
-            right: 165px;
+            z-index: 999999;
+            top: 50px;
+            right: -100px;
             position: absolute;
             text-decoration: none;
             color: #000000;
         }
         
-        .masuk img {
-            width: 30px;
-            margin-right: 100px;
-            margin-top: -3px;
+        .masuk:hover a {
+            color: #2EC67A;
+            transition: color .6s;
         }
         
-        .foto img {
-            width: 40px;
-            margin-top: -10px;
-            margin-left: 350px;
+        .masuk img {
+            width: 30px;
+            margin: -5px 50px;
         }
         
         .jagung {
@@ -75,6 +111,7 @@
         .kuning {
             width: 200px;
             height: 400px;
+            padding-top: 9%;
         }
         
         .lengkap {
@@ -154,7 +191,7 @@
         
         .tengah {
             margin-left: 24%;
-            margin-top: -10%;
+            margin-top: -12%;
         }
         
         .harga {
@@ -208,15 +245,20 @@
 
 <body>
     <div class="container">
+        <div class="borderrr animated fadeIn slower"></div>
         <div class="menu">
             <ul>
-                <li class="logo"> <img src="Logo.png"> </li>
-                <li class="home"> Home</li>
-                <li class="tentang">Tentang Kami</li>
-                <li class="active">Jual/Beli</li>
-                <li class="masuk">Nurrahmi</li>
-                <li class="masuk"><img src="shopping-cart.png"></li>
-                <li class="foto"><img src="Group 99.png"></li>
+                <li class="logo"><img src="Logo.png"></li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="tentang">Tentang Kami</a></li>
+                <li><a href="#" class="jualbeli">Jual/Beli</a></li>
+                <li class="gambarnor">
+                    <a href="#"><img src="Group 99.png"></a>
+                </li>
+                <li><a href="#" class="masuk">Nurrahmi</a> </li>
+                <li class="masuk">
+                    <a href="#"><img src="shopping-cart.png"></a>
+                </li>
             </ul>
         </div>
         <div class="jagung">
