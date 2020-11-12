@@ -97,21 +97,16 @@
     outline: 0px;
 }
 
-.tombol {
+.kirim {
+    margin-top: 25%;
+    margin-left: 45%;
+}
+
+.button1 {
+    text-decoration: none;
     background-color: #b22222;
     color: #fff;
     border-radius: 7px;
     padding: 7px 50px;
-    outline: none;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 10pt;
-    margin-left: -8%;
-}
-
-.button {
-    width: 200px;
-    height: 200px;
-    margin-top: 350px;
-    margin-left: 600px;
+    border: none;
 }

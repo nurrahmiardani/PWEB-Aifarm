@@ -5,6 +5,8 @@
     <title>Daftar Penjualan</title>
     <style>
         * {
+            margin: 5px 0px;
+            padding: 0px;
             background-color: #FFFAEF;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
@@ -17,13 +19,13 @@
         }
         
         .list {
-            margin-top: 75px;
+            margin-top: 70px;
             margin-left: 50px;
         }
         
         .ket {
             margin-left: 275px;
-            margin-top: -175px;
+            margin-top: -180px;
             display: flex;
             text-decoration: solid;
         }
@@ -42,16 +44,21 @@
         .data {
             margin-left: 275px;
             margin-top: -10px;
-            color: #12CDE7;
-            text-decoration: underline;
+            color: black;
+            text-decoration: none;
             cursor: pointer;
         }
         
+        .data:hover {
+            color: #12CDE7;
+            transition: color .6s;
+        }
+        
         .gambar {
-            margin-top: -800px;
+            margin-top: -750px;
             padding: 0px;
             margin-left: 850px;
-            width: 490px;
+            width: 499px;
             height: 790px;
             display: flex;
         }
@@ -65,33 +72,45 @@
         
         .lombok {
             margin-left: 950px;
-            margin-top: -27px;
+            margin-top: -35px;
             display: flex;
             font-size: 24px;
         }
         
         .foto {
-            margin-left: 1200px;
-            margin-top: -70px;
+            margin-left: 1170px;
+            margin-top: -50px;
             width: 75px;
             height: 75px;
             display: flex;
         }
         
         .sub {
+            text-decoration: none;
             margin-left: 950px;
-            margin-top: 10px;
+            margin-top: 20%;
             font-size: 20px;
+            color: black;
+            background: none;
         }
         
         .Produk {
+            text-decoration: none;
+            margin-top: 25px;
             margin-left: 950px;
             color: #00BA5D;
             font-size: 20px;
             cursor: pointer;
+            background: none;
         }
         
         .sub:hover {
+            color: #2EC67A;
+            transition: color .6s;
+            cursor: pointer;
+        }
+        
+        .Produk:hover {
             color: #2EC67A;
             transition: color .6s;
             cursor: pointer;
@@ -106,27 +125,27 @@
             <h2 class="ket">Tomat Segar khas Sumenep</h2> <br>
             <h3 class="harga"> Rp. 6.000/kg </h3> <br>
             <p class="tgl">TGL 12 Oktober 2020 | 23.00</p> <br>
-            <p class="data">Data Pesanan</p>
+            <p><a href="history penjualan tomat.html" class="data"> Data Pesanan</a></p>
         </div>
     </div>
 
     <div class="list">
         <img src="download (4).jpg">
         <div>
-            <h2 class="ket">Sayur Kol Abimanyu</h2> <br>
+            <h2 class="ket">Sayur Kankung Abimanyu</h2> <br>
             <h3 class="harga"> Rp. 3.000/ikat </h3> <br>
             <p class="tgl">TGL 12 April 2020 | 18.30</p> <br>
-            <p class="data">Data Pesanan</p>
+            <p><a href="#" class="data">Data Pesanan</a></p>
         </div>
     </div>
 
     <div class="list">
-        <img src="download (5).jpg">
+        <img src="download (3).jpg">
         <div>
-            <h2 class="ket">Tomat Segar khas Sumenep</h2> <br>
-            <h3 class="harga"> Rp. 6.000/kg </h3> <br>
+            <h2 class="ket">Kentang</h2> <br>
+            <h3 class="harga"> Rp. 14.000/kg </h3> <br>
             <p class="tgl">TGL 12 Oktober 2020 | 09.13</p> <br>
-            <p class="data">Data Pesanan</p>
+            <p><a href="#" class="data">Data Pesanan</a></p>
         </div>
     </div>
     <div>
@@ -135,9 +154,10 @@
             <img src="down-arrow.png" class="panah">
             <p class="lombok">Lombok Garut</p>
             <img src="Photo.png" class="foto">
-            <p class="sub">Ubah Profil</p> <br>
-            <p class="Produk">Produk Saya</p> <br>
-            <p class="sub">History Penjualan</p>
+            <p><a href="profil penjual.html" class="sub">Ubah Profil</a></p> <br><br>
+            <p><a href="list jualan.html" class="Produk">Produk Saya</a></p> <br><br>
+            <p><a href="riwayat penjualan.html" class="sub">Riwayat Penjualan</a></p> <br><br>
+            <p><a href="tambah jualan.html" class="sub">Tambah Produk</a></p>
         </div>
     </div>
 </body>
