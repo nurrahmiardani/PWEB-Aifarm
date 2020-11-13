@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100%;
-    background: #ffffff;
+    background: #ffffff
 }
 .borderrr{
     margin-top: -3.8%;
@@ -119,7 +119,6 @@ body {
     background-color: #E88E08;
 }
 
-
 .registration{
     width: 52%;
     height: 90%;
@@ -143,11 +142,307 @@ body {
     padding-top: 4%;
     padding-left: 53%;
     background-color: #64CF99;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 15px #d4d4d4;
 }
 .gambar3{
     margin-top:-5%;
     margin-left: 102%;
     width: 5%;
+}
+.kolom1{
+    margin-top: -37%;
+    padding-left: 8%;
+}
+.kolom1 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    margin-left: -2%;
+    position: absolute
+}
+.kol1,
+.kol2,
+.kol3,
+.kol4{
+    margin-top: -1%;
+    padding-top: 6%;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    box-shadow: 0px 10px 25px #d4d4d4;
+    cursor: pointer;
+}
+.kol1:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol2:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol3:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol4:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.gambar11,
+.gambar12,
+.gambar13,
+.gambar14{
+    width: 96%;
+    margin-top: -22% ;
+    padding-bottom: 5%;
+}
+.judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.kol1 p,
+.kol2 p,
+.kol3 p,
+.kol4 p{
+    font-size: 18px;
+    margin-left: 2%;
+    line-height: 40px;
+}
+.alamat{
+    padding-left: 8%;
+}
+.kuning{
+    color: #E88E08;
+}
+.maps{
+    margin-top: -10.5%;
+    margin-left: 2%;
+    padding-bottom: 8%;
+}
+
+                            /*KOLOM 2 BOS*/
+.kolom2{
+    margin-top: 30%;
+    padding-left: 8%;
+}
+.kolom2 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    margin-left: -2%;
+    position: absolute
+}
+.kol5,
+.kol6,
+.kol7,
+.kol8{
+    margin-top: -1%;
+    padding-top: 6%;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    box-shadow: 0px 10px 25px #d4d4d4;
+    cursor: pointer;
+}
+.kol5:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol6:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol7:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol8:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.gambar11,
+.gambar12,
+.gambar13,
+.gambar14{
+    width: 96%;
+    margin-top: -22% ;
+    padding-bottom: 5%;
+}
+.judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.kol5 p,
+.kol6 p,
+.kol7 p,
+.kol8 p{
+    font-size: 18px;
+    margin-left: 2%;
+    line-height: 40px;
+}
+.alamat{
+    padding-left: 8%;
+}
+.kuning{
+    color: #E88E08;
+}
+.maps{
+    margin-top: -10.5%;
+    margin-left: 2%;
+    padding-bottom: 8%;
+}
+.kol5 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+                            /*KOLOM 3 BOS*/
+.kolom3{
+    margin-top: 30%;
+    padding-left: 8%;
+}
+.kolom3 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    margin-left: -2%;
+    position: absolute
+}
+.kol9,
+.kol10,
+.kol11,
+.kol12{
+    margin-top: -1%;
+    padding-top: 6%;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    box-shadow: 0px 10px 25px #d4d4d4;
+    cursor: pointer;
+}
+.kol9:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol10:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol11:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.kol12:hover{
+    margin-top: -1.8%;
+    background-color:#FFFAEF;
+    transition: .6s;
+}
+.gambar11,
+.gambar12,
+.gambar13,
+.gambar14{
+    width: 96%;
+    margin-top: -22% ;
+    padding-bottom: 5%;
+}
+.judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.kol9 p,
+.kol10 p,
+.kol11 p,
+.kol12 p{
+    font-size: 18px;
+    margin-left: 2%;
+    line-height: 40px;
+}
+.alamat{
+    padding-left: 8%;
+}
+.kuning{
+    color: #E88E08;
+}
+.maps{
+    margin-top: -10.5%;
+    margin-left: 2%;
+    padding-bottom: 8%;
+}
+
+.image99{
+    margin-top: -94%;
+    margin-left: 89%;
+    z-index: 70;
+    position: absolute;
+    cursor: pointer;
+}
+.image99 li{
+    margin-top: 370.5%;
+    list-style: none;
+}
+
+.nomor{
+    margin-top: 32%;
+    margin-left: 37.5%;
+    display: flex;
+    cursor: pointer;
+}
+.nomor p{
+    font-size: 25px;
+    margin-left: 8.8%;
+    font-weight: bold;
+}
+.borr{
+    margin-top: -3%;
+    margin-left: 41%;
+    display: flex;
+    z-index: -10;
+    position: relative;
+    padding-bottom: 8%;
+}
+.borr p{
+    margin-right: 3%;
+    padding-top: 6%;
+    padding-left: 8%;
+    box-shadow: 0px 10px 25px #d4d4d4;
+    border-radius: 10px;
+}
+.bor1{
+    background-color: #64CF99;
+}
+.bor2{
+    background-color: #ffffff;
+}
+.bor2:hover{
+    background-color: #2EC67A;
+    transition: .6s;
+}
+.bor3{
+    background-color: #ffffff;
+}
+.bor3:hover{
+    background-color: #2EC67A;
+    transition: .6s;
 }
