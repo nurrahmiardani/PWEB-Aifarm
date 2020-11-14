@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -10,18 +10,20 @@ body {
     background: #DBF0E5;
 }
 
-.text{
+.text {
     text-align: center;
     margin: auto;
     width: 50%;
     color: #000000;
 }
-.text p{
+
+.text p {
     padding-top: 5%;
     font-size: 25px;
     position: relative;
 }
-.text h1{
+
+.text h1 {
     padding-top: 10%;
     font-size: 30px;
     margin: 30px 0px 0px 0;
@@ -29,25 +31,30 @@ body {
     letter-spacing: 1px;
     position: relative;
 }
-.registration{
+
+.registration {
     width: 34%;
     height: 90%;
     color: #000000;
     margin: 5% auto;
 }
-.registration p{
-     font-size: 20px;
-     margin: 30px 0;
-     text-shadow: 0px 0px 20px #a8a8a8;;
+
+.registration p {
+    font-size: 20px;
+    margin: 30px 0;
+    text-shadow: 0px 0px 20px #a8a8a8;
+    ;
 }
-.registration a u{
+
+.registration a u {
     margin: 50% auto;
     font-size: 15px;
     font-weight: lighter;
     text-shadow: 0px 0px 20px #a8a8a8;
     cursor: pointer;
 }
-.registration input{
+
+.registration input {
     cursor: pointer;
     font-size: 16px;
     padding: 15px 10px;
@@ -58,7 +65,7 @@ body {
     box-shadow: 0px 0px 15px #d4d4d4;
 }
 
-.registration button{
+.registration button {
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
@@ -68,9 +75,10 @@ body {
     border: 0;
     border-radius: 15px;
     background-color: #33d684;
-    box-shadow: 0px 0px 20px #b9b9b9   
+    box-shadow: 0px 0px 20px #b9b9b9
 }
-.registration:hover button{
+
+.registration:hover button {
     margin: -10px 30%;
     transition: margin .6s;
 }
@@ -78,6 +86,4 @@ body {
 .acc img {
     margin: -45% -3%;
     transform: rotate(12deg);
-    animation: img 1s ease-in-out infinite;
-    animation-duration: 4s;
 }
