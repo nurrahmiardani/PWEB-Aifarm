@@ -1,0 +1,326 @@
+<html>
+
+<head>
+    <title>Berita Aifarm</title>
+    <style>
+            * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        
+        .container {
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+        }
+        
+        .borderrr {
+            margin-top: -11%;
+            padding: 5% 50%;
+            background-color: #ffffff;
+            border: 2 #000000;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px #b9b9b9;
+            position: fixed;
+            z-index: 98;
+            animation-delay: 2s;
+        }
+        
+        .menu {
+            width: auto;
+            position: fixed;
+            z-index: 99;
+            margin-top: -8.5%;
+        }
+        
+        .menu ul {
+            display: inline-flex;
+            margin: 50px;
+        }
+        
+        .menu ul li {
+            list-style: none;
+            font-size: 20px;
+            margin: 0 50px;
+            font-weight: 500;
+            color: #000000;
+            cursor: pointer;
+        }
+        
+        .logo img {
+            width: 120px;
+            margin-top: -17px;
+            margin-left: 20px;
+        }
+        
+        .active {
+            color: #2EC67A;
+            text-decoration: none;
+        }
+        
+        .tentang {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .tentang:hover {
+            color: #2EC67A;
+            transition: color .6s;
+        }
+        
+        .jualbeli {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .jualbeli:hover {
+            color: #2EC67A;
+            transition: color .6s;
+        }
+        
+        .daftar {
+            top: 38px;
+            right: -200px;
+            position: absolute;
+            text-decoration: none;
+            color: #000000;
+            border: 2px solid transparent;
+            padding: 10px 15px;
+            border-color: #2EC67A;
+            border-radius: 30px;
+            background-image: linear-gradient(#2EC67A, #2EC67A);
+            box-shadow: 0px 0px 20px #b9b9b9
+        }
+        
+        .daftar:hover {
+            top: 34px;
+            transition: top .7s;
+        }
+        
+        .masuk {
+            z-index: 999999;
+            top: 50px;
+            right: -75px;
+            position: absolute;
+            text-decoration: none;
+            color: #000000;
+        }
+        
+        .masuk:hover {
+            color: #2EC67A;
+            transition: color .6s;
+        }
+        
+        .masuk img {
+            width: 30px;
+            margin: -4px 20px;
+        }
+        
+        .berita1 {
+            margin-left: 100px;
+            margin-right: 80px;
+            margin-top: 90px;
+            right: -350px;
+            padding-top: 20px;
+            padding-left: 5px;
+            height: 150px;
+            text-decoration: none;
+            color: #000000;
+            border: 3px solid transparent;
+            border-color: #b9b9b9;
+            border-radius: 30px;
+            box-shadow: 0px 0px 15px #c5c5c5
+        }
+        
+        .berita1:hover {
+            border-color: #2EC67A;
+            transition: border-color .6s;
+        }
+        
+        .berita1 img {
+            height: 120px;
+            width: 130px;
+            margin-left: 15px;
+        }
+        
+        .tulisan {
+            width: 700px;
+            height: 150px;
+            display: flex;
+            margin-left: 180px;
+            margin-top: -10%;
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+        
+        .keterangan {
+            display: flex;
+            width: 1000px;
+            height: 150px;
+            margin-top: -100px;
+            margin-left: 180px;
+            color: #c4c4c4;
+        }
+        
+        .sel {
+            display: flex;
+            width: 900px;
+            height: 150px;
+            margin-top: -90px;
+            margin-left: 180px;
+            color: #4DCDE9;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .berita2 {
+            margin-left: 100px;
+            margin-right: 80px;
+            margin-top: 80px;
+            right: -350px;
+            padding-top: 20px;
+            padding-left: 10px;
+            height: 150px;
+            text-decoration: none;
+            color: #000000;
+            border: 3px solid transparent;
+            border-color: #b9b9b9;
+            border-radius: 30px;
+            box-shadow: 0px 0px 15px#c5c5c5
+        }
+        
+        .berita2:hover {
+            border-color: #2EC67A;
+            transition: border-color .6s;
+        }
+        
+        .berita2 img {
+            height: 120px;
+            width: 130px;
+            margin-left: 15px;
+        }
+        
+        .keterangan2 {
+            display: flex;
+            width: 1000px;
+            height: 150px;
+            margin-top: -110px;
+            margin-left: 180px;
+            color: #c4c4c4;
+        }
+        
+        .sel2 {
+            display: flex;
+            width: 900px;
+            height: 150px;
+            margin-top: -80px;
+            margin-left: 180px;
+            color: #4DCDE9;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .berita3 {
+            margin-left: 100px;
+            margin-right: 80px;
+            margin-top: 80px;
+            right: -350px;
+            padding-top: 20px;
+            padding-left: 10px;
+            height: 150px;
+            text-decoration: none;
+            color: #000000;
+            border: 3px solid transparent;
+            border-color: #b9b9b9;
+            border-radius: 30px;
+            box-shadow: 0px 0px 15px #c5c5c5
+        }
+        
+        .berita3:hover {
+            border-color: #2EC67A;
+            transition: border-color .6s;
+        }
+        
+        .berita3 img {
+            height: 120px;
+            width: 130px;
+            margin-left: 15px;
+        }
+        
+        .keterangan3 {
+            display: flex;
+            width: 1000px;
+            height: 150px;
+            margin-top: -110px;
+            margin-left: 180px;
+            color: #c4c4c4;
+        }
+        
+        .sel3 {
+            display: flex;
+            width: 900px;
+            height: 150px;
+            margin-top: -80px;
+            margin-left: 180px;
+            color: #4DCDE9;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .padi {
+            position: relative;
+            float: right;
+            width: 200px;
+            height: 200px;
+            margin-top: -10px;
+    </style>
+
+</head>
+
+<body <div class="container">
+    <div class="borderrr animated fadeIn slower"></div>
+    <div class="menu">
+        <ul>
+            <li class="logo"><img src="Logo.png"></li>
+            <li><a href="1 homepage.html" class="active">Home</a></li>
+            <li><a href="2 tentangkami.html" class="tentang">Tentang Kami</a></li>
+            <li><a href="#" class="jualbeli">Jual/Beli</a></li>
+            <li><a href="4 regis pembeli.html" class="daftar">Daftar</a> </li>
+            <li><a href="5 login.html" class="masuk">Masuk</a> </li>
+            <li class="masuk">
+                <a href="#"><img src="person_outline_24px.png"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="berita">
+        <div class="berita1">
+            <img src="download (1) 1.png">
+            <div>
+                <p class="tulisan"><strong>Jabar Akan Budidaya Porang, Perkuat Pertanian saat Pandemi</strong></p>
+                <p class="keterangan">Sekda Jabar Setiawan Wangsaatmaja menuturkan peningkatan pertumbuhan menjadi peluang untuk pemulihan ekonomi Jawa Barat. <br> Pandemi Covid-19 ini momentum untuk dapat membangkitkan pertanian lokal......</p>
+                <p class="sel">Selengkapnya</p>
+            </div>
+        </div>
+        <div class="berita2">
+            <img src="download (2) 3.png">
+            <div>
+                <p class="tulisan"><strong>Perkuat Sektor Pertanian di Tengah Pandemi</strong></p>
+                <p class="keterangan2">Porang sendiri dikenal dengan nama iles-iles adalah tanaman umbi-umbian dari spesies Amorphophallus Muelleri. Porang dapat <br> digunakan untuk bahan baku tepung, kosmetik, dan penjernih air. </p>
+                <p class="sel2">Selengkapnya</p>
+            </div>
+        </div>
+        <div class="berita3">
+            <img src="download (3) 2.png">
+            <div>
+                <p class="tulisan"><strong>Belitung Padukan Potensi Pertanian dan Pariwisata</strong></p>
+                <p class="keterangan3">Menurut dia, di tengah Pandemi COVID-19 maka setiap desa atau kampung yang memiliki potensi ekonomi harus dikolaborasikan <br> dengan wisata sebagai rekreasi dan menambah pengalaman wisatawan baik domestik dan mancanegara </p>
+                <p class="sel3">Selengkapnya</p>
+            </div>
+        </div>
+    </div>
+    <img src="pngwing 4.png" class="padi">
+    </div>
+</body>
+
+</html>
