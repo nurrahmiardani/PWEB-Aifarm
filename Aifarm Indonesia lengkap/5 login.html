@@ -1,9 +1,10 @@
 <html>
 
 <head>
-    <title>Registrasi Pembelii</title>
+    <title>Login</title>
     <link rel="shortcut icon" href="Logo1.png">
     <link rel="stylesheet" href="./loginstyle.css">
+    <script src="../js/jslogin.js"></script>
 </head>
 
 <body>
@@ -15,14 +16,24 @@
     <div class="registration">
         <form action="#" method="POST">
             <p>Email / No.Hp</p>
-            <input type="email,number" class="Profil" placeholder="Masukkan email / no.Hp anda">
+            <input type="email,number" class="Profil" id="profil" placeholder="Masukkan email / no.Hp anda">
             <p>Password</p>
-            <input type="password" name="Password" placeholder="Masukkan password yang akan digunakan">
-            <p><a href="6 lupapsw.html"><u>Lupa Password?</u></a></p>
-            <button type="submit">Masuk</button>
-    </div>
-    <div class="acc">
-        <img src="Aq.png"></div>
+            <input type="password" name="Password" id="psw" placeholder="Masukkan password yang akan digunakan"><br><br>
+            <a href="6 lupapsw.html" class="lupa">Lupa Password?</a><br><br><br>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="login()">&times;
+                    </div>
+                    <h1>Login Berhasil</h1> <br><br>
+                    <a href="3 jual beli.html" class="belanja">Belanja Sekarang</a>
+                </div>
+            </div>
+
+            <button value="Masuk" type="button" onclick="login()">Masuk</button>
+
+            <img src="Aq.png">
 </body>
 
 
