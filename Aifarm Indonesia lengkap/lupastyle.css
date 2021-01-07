@@ -1,0 +1,174 @@
+body {
+    background-color: #DBF0E5;
+}
+
+.kotak {
+    margin: 150px 400px;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: -10px;
+    height: 375px;
+    width: 400px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid transparent;
+    border-color: #b9b9b9;
+    border-radius: 30px;
+}
+
+.logo {
+    margin: 10px -50px;
+    width: 350px;
+    height: 100px;
+}
+
+.masuk {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 25px;
+}
+
+.kotak input {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline-color: #56C28C;
+    box-shadow: 0px 0px 15px #d4d4d4;
+    margin-left: -15%;
+}
+
+.ulang {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.ulang:hover {
+    color: #4DCDE9;
+    transition: color .6s;
+}
+
+.belum {
+    margin-left: -10px;
+}
+
+.gam img {
+    margin-left: 89%;
+    margin-top: -270px;
+    margin-bottom: 10px;
+    transform: rotate(12 deg);
+    width: 11%;
+}
+
+.dua {
+    display: flex;
+}
+
+.kotak button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* border-radius: 7px;
+    background-color: #2EC67A;
+    padding: 10% 10%;*/
+}
+
+.kotak button {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10%;
+    padding: 10px 25px;
+    width: 13%;
+    border: 0;
+    border-radius: 15px;
+    background-color: #33d684;
+    box-shadow: 0px 0px 20px #b9b9b9;
+    text-decoration: none;
+    color: black;
+}
+
+.kotak:hover button {
+    margin: 15px 10%;
+    transition: margin .6s;
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 400px;
+    height: 150px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 17px;
+}
+
+.popup .close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+button {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    font-size: 18px;
+    border: 2px solid #222;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #fff;
+}
+
+.belanja {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.belanja:hover {
+    color: #33d684;
+    transition: color.6s;
+}
