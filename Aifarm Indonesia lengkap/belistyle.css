@@ -115,16 +115,10 @@ body {
     display: flex;
 }
 
-.komoditi p {
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
 .komoditi img {
     width: 3%;
     margin-top: -0.7%;
-    margin-left: 1%;
+    margin-left: 9%;
     cursor: pointer;
 }
 
@@ -517,4 +511,42 @@ body {
 .bor3:hover {
     background-color: #2EC67A;
     transition: .6s;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin-left: -150%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 20px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-left: -164%;
+    background-color: E88E08;
+    width: 181px;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
