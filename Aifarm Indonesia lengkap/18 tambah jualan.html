@@ -3,7 +3,8 @@
 
 <head>
     <title>Tambah Barang Jualan</title>
-    <link rel="stylesheet" href="tambah css.css">
+    <link rel="stylesheet" href="../css/tambah css.css">
+    <script src="../js/jstambah.js"></script>
 </head>
 
 <body>
@@ -19,21 +20,28 @@
         </ul>
     </div>
     <div class="form">
-        <input type="file" class="add"> <br><br>
-        <label class="namaform">Foto Produk</label> <br><br> <br><br>
-        <label class="namaform">Nama Produk</label> <br><br>
-        <input type="input" placeholder="Masukkan Nama Produk" class="input"><br><br>
-        <label class="namaform">Deskripsi Produk</label> <br><br>
-        <input type="input" placeholder="Tuliskan Deskripsi Produk anda                                                                                                                                0/100" class="input"><br><br>
-        <label class="namaform">Kategori Produk</label> <br><br>
-        <input type="input" placeholder="Tentukan Kategori Produk" class="input"><br><br>
-        <label class="namaform">Minimal Pembelian</label> <br><br>
-        <input type="input" placeholder="Tentukan Minimal Pembelian Produk anda" class="input"><br><br>
-        <label class="namaform">Stok Produk</label> <br><br>
-        <input type="input" placeholder="Tentukan Stok Produk anda saat ini" class="input"><br><br> <br> <br>
+        <form action="#" method="POST">
+            <input type="file" class="add"> <br><br>
+            <label class="namaform">Foto Produk</label> <br><br> <br><br>
+            <label class="namaform">Nama Produk</label> <br><br>
+            <input type="input" placeholder="Masukkan Nama Produk" class="input" id="produk"><br><br>
+            <label class="namaform">Deskripsi Produk</label> <br><br>
+            <input type="input" placeholder="Tuliskan Deskripsi Produk anda" class="input" id="deskripsi"><br><br>
+            <label class="namaform">Kategori Produk</label> <br><br>
+            <select id="kategori">
+                <option >Sayuran</option>
+                <option >Buah</option>
+                <option >Kopi</option>
+            </select><br><br>
+            <label class="namaform">Minimal Pembelian</label> <br><br>
+            <input type="input" placeholder="Tentukan Minimal Pembelian Produk anda" class="input" id="minimal"><br><br>
+            <label class="namaform">Stok Produk</label> <br><br>
+            <input type="number" placeholder="Tentukan Stok Produk anda saat ini" class="input" id="stok"><br><br> <br> <br>
+        </form>
+
     </div>
     <div class="kirim">
-        <p><a href="14 list jualan.html" class="button1">Tambahkan</a></p>
+        <button value="Kirim" type="button" class="button1" onclick="tambah()">K I R I M</button>
     </div>
 
 </body>
