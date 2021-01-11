@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    margin-top: -10%;
+    position: fixed;
+    z-index: 99;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 50px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 120px;
+    margin-top: -17px;
+    margin-left: 20px;
+}
+
+.active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.tentang {
+    color: #000000;
+    text-decoration: none;
+}
+
+.tentang:hover {
+    color: #2EC67A;
+    transition: color .6s;
+}
+
+.jualbeli {
+    color: #2EC67A;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: #2EC67A;
+    transition: color .6s;
+}
+
+.gambarnor img {
+    width: 5%;
+    top: 30px;
+    right: -175px;
+    position: absolute;
+}
+
+.masuk {
+    z-index: 999999;
+    top: 50px;
+    right: -100px;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+}
+
+.masuk:hover a {
+    color: #2EC67A;
+    transition: color .6s;
+}
+
+.masuk img {
+    width: 30px;
+    margin: -5px 50px;
+}
+
+.jagung {
+    margin-top: 10%;
+    margin-left: 140px;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 76%;
+    height: 150px;
+    border: 3px solid transparent;
+    border-color: #b9b9b9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px#c5c5c5
+}
+
+.jagung:hover {
+    border-color: #2EC67A;
+    transition: border-color .6s;
+}
+
+.gambar {
+    width: 180px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+.manis {
+    width: 700px;
+    height: 150px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -10%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banyak {
+    width: 700px;
+    height: 150px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -10%;
+    font-size: 20px;
+}
+
+.harga {
+    width: 700px;
+    height: 150px;
+    display: flex;
+    margin-left: 520px;
+    margin-top: -18%;
+    font-size: 24px;
+    color: #E88E08;
+    font-weight: bold;
+}
+
+.status {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -14.5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jeruk {
+    margin-top: 30px;
+    margin-left: 140px;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 76%;
+    height: 150px;
+    border: 3px solid transparent;
+    border-color: #b9b9b9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px#c5c5c5
+}
+
+.jeruk:hover {
+    border-color: #2EC67A;
+    transition: border-color .6s;
+}
+
+.jeruk img {
+    width: 180px;
+    height: 130px;
+}
+
+.selesai {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -14.5%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #61D74E;
+}
+
+.vector {
+    margin-left: 92.5%;
+    margin-top: -7%;
+    width: 100px;
+}
