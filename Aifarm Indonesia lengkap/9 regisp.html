@@ -4,6 +4,7 @@
     <title>Registrasi petani</title>
     <link rel="shortcut icon" href="Logo1.png">
     <link rel="stylesheet" href="../css/regispstyle.css">
+    <script src="../js/jsregispetani.js"></script>
 </head>
 
 <body>
@@ -17,37 +18,45 @@
     <div class="registration">
         <form action="#" method="POST">
             <p>Email / No.Hp</p>
-            <input type="email,number" class="Profil" placeholder="Masukkan email / no.Hp anda">
+            <input type="email,number" class="Profil" placeholder="Masukkan email / no.Hp anda" id="email">
             <p>Password</p>
-            <input type="password" name="Password" placeholder="Masukkan password yang akan digunakan">
+            <input type="password" name="Password" placeholder="Masukkan password yang akan digunakan" id="password">
             <p>Password Ulang</p>
-            <input type="password" name="Repassword" placeholder="Masukkan ulang password">
+            <input type="password" name="Repassword" placeholder="Masukkan ulang password" id="konfirmasi">
             <div class="pisah">
                 <div class="nama">
                     <p>Nama Usaha</p>
-                    <input type="text" name="nama" placeholder="Masukkan nama usaha anda"> </div>
+                    <input type="text" name="nama" placeholder="Masukkan nama usaha anda" id="usaha"> </div>
                 <div class="jenis">
                     <p>Jenis Produk</p>
-                    <input type="text" name="Jenis" placeholder="Masukkan jenis produk usaha"></div>
+                    <input type="text" name="Jenis" placeholder="Masukkan jenis produk usaha" id="jenis"></div>
             </div>
             <p>Alamat</p>
-            <input type="text" name="Alamat" placeholder="Masukkan alamat usaha anda">
+            <input type="text" name="Alamat" placeholder="Masukkan alamat usaha anda" id="alamatt">
             <div class="pisah">
                 <div class=" daerah">
                     <p>Daerah</p>
-                    <input type="text" name="Daerah" placeholder="Masukkan daerah anda"> </div>
+                    <input type="text" name="Daerah" placeholder="Masukkan daerah anda" id="daerah"> </div>
                 <div class="provinsi">
                     <p>Provinsi</p>
-                    <input type="text" name="Provinsi" placeholder="Masukkan provinsi anda"></div>
+                    <input type="text" name="Provinsi" placeholder="Masukkan provinsi anda" id="provinsi"></div>
             </div>
             <div class="ktp">
                 <p>Dokumen KTP</p>
                 <input type="file" id="foto" />
             </div>
             <div class="tombol">
-                <p><a href="18 tambah jualan.html">Daftar</a></p>
+                <button value="Masuk" type="button" onclick="regispembeli()">Masuk</button>
             </div>
-
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="regispembeli()">&times;
+                    </div>
+                    <h1>Login Berhasil</h1> <br><br>
+                    <a href="5 1 loginpetani.html" class="belanja">Login</a>
+                </div>
+            </div>
         </form>
     </div>
     <div class="acc"><img src="Aq.png"></div>
