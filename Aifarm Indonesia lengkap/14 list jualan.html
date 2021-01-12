@@ -4,6 +4,7 @@
 <head>
     <title>Daftar Penjualan</title>
     <link rel="stylesheet" href="../css/liststyle.css">
+    <script src="../js/jslist.js"></script>
 </head>
 
 <body>
@@ -36,17 +37,22 @@
             <p><a href="#" class="data">Data Pesanan</a></p>
         </div>
     </div>
-    <div>
-        <img src="petania.png" class="gambar">
-        <div>
-            <img src="down-arrow.png" class="panah">
-            <p class="lombok">Lombok Garut</p>
-            <img src="Photo.png" class="foto">
-            <p><a href="16 profil penjual.html" class="sub">Ubah Profil</a></p> <br><br>
-            <p><a href="14 list jualan.html" class="Produk">Produk Saya</a></p> <br><br>
-            <p><a href="17 riwayat penjualan.html" class="sub">Riwayat Penjualan</a></p> <br><br>
-            <p><a href="18 tambah jualan.html" class="sub">Tambah Produk</a></p>
+    <div class="samping">
+        <img src="petania.png">
+        <button type="button" id="tombol" value="sembunyikan" onclick="proses()">Lombok Garut</button><br><br>
+
+        <div class="pil" id="pil">
+            <p><a href="16 profil penjual.html">Ubah Profil</a></p> <br><br>
+            <div class="produk">
+                <p><a href="14 list jualan.html">Produk Saya</a></p> <br><br>
+            </div>
+            <p><a href="17 riwayat penjualan.html">Riwayat Penjualan</a></p> <br><br>
+            <p><a href="18 tambah jualan.html">Tambah Produk</a></p>
+            <div class="foto" id="foto">
+                <img src="Photo.png">
+            </div>
         </div>
+
     </div>
 </body>
 
