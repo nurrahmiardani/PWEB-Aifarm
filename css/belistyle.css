@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +11,9 @@ body {
     width: 100%;
     height: 100%;
     background: #ffffff
+}
+ul{
+    list-style:none;
 }
 
 .borderrr {
@@ -163,18 +169,18 @@ body {
     margin-left: 102%;
     width: 5%;
 }
-
+.komoditi h1{
+    padding-top: 20%;
+}
 .kolom1 {
-    margin-top: -37%;
-    padding-left: 8%;
+    margin-top: -30%;
+    padding-left: 7%;
+    display:flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.kolom1 h1 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.flex {
+.flex{
     display: flex;
     margin-left: -2%;
     position: absolute
@@ -184,37 +190,47 @@ body {
 .kol2,
 .kol3,
 .kol4 {
-    margin-top: -1%;
-    padding-top: 6%;
-    padding-left: 1%;
+    width:310px;
+	height:380px;
+    margin-top: 6%;
+    padding-top: 15%;
+    padding-left: 4%;
     background-color: #ffffff;
     border-radius: 10px;
-    margin-left: 1.5%;
+    margin-left: 5%;
     box-shadow: 0px 10px 25px #d4d4d4;
     cursor: pointer;
+    justify-content: space-between;
+	flex-direction: column;
+	box-sizing: border-box;
+	margin: 20px 7px;
 }
 
 .kol1:hover {
-    margin-top: -1.8%;
+    margin-top: 2.5%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol2:hover {
-    margin-top: -1.8%;
+    margin-top: 2.5%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol3:hover {
-    margin-top: -1.8%;
+    margin-top: 2.5%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol4:hover {
-    margin-top: -1.8%;
+    margin-top: 2.5%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
@@ -255,15 +271,13 @@ body {
     padding-bottom: 8%;
 }
 
-
 /*KOLOM 2 BOS*/
-
 .kolom2 {
-    margin-top: 30%;
+    margin-top: -39%;
     padding-left: 8%;
 }
-
 .kolom2 h1 {
+    line-height: 500%;
     font-size: 30px;
     font-weight: bold;
 }
@@ -278,7 +292,7 @@ body {
 .kol6,
 .kol7,
 .kol8 {
-    margin-top: -1%;
+    margin-top: -10%;
     padding-top: 6%;
     padding-left: 1%;
     background-color: #ffffff;
@@ -289,26 +303,30 @@ body {
 }
 
 .kol5:hover {
-    margin-top: -1.8%;
+    margin-top: -10.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol6:hover {
-    margin-top: -1.8%;
+    margin-top: -10.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol7:hover {
-    margin-top: -1.8%;
+    margin-top: -10.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol8:hover {
-    margin-top: -1.8%;
+    margin-top: -10.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
@@ -354,11 +372,10 @@ body {
     color: black;
 }
 
-
 /*KOLOM 3 BOS*/
 
 .kolom3 {
-    margin-top: 30%;
+    margin-top: 25%;
     padding-left: 8%;
 }
 
@@ -390,24 +407,28 @@ body {
 .kol9:hover {
     margin-top: -1.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol10:hover {
     margin-top: -1.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol11:hover {
     margin-top: -1.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
 .kol12:hover {
     margin-top: -1.8%;
     background-color: #FFFAEF;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
@@ -449,15 +470,15 @@ body {
 }
 
 .image99 {
-    margin-top: -92%;
-    margin-left: 92%;
+    margin-top: -102%;
+    margin-left: 90%;
     z-index: 70;
     position: absolute;
     cursor: pointer;
 }
 
 .image99 li {
-    margin-top: 338%;
+    margin-top: 400%;
     list-style: none;
 }
 
@@ -501,6 +522,7 @@ body {
 
 .bor2:hover {
     background-color: #2EC67A;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
@@ -510,6 +532,7 @@ body {
 
 .bor3:hover {
     background-color: #2EC67A;
+    transform-style: preserve-3d;
     transition: .6s;
 }
 
@@ -545,8 +568,10 @@ body {
 .dropdown-content a:hover {
     color: black;
     background-color: #ffffff;
+    transform-style: preserve-3d;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transform-style: preserve-3d;
 }
