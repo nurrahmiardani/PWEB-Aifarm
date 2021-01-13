@@ -1,114 +1,160 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-}
-
-.borderrr {
-    margin-top: -3.8%;
-    padding: 4.7% 50%;
+nav {
+    display: flex;
     background-color: #ffffff;
-    border: 2 #000000;
-    border-radius: 50px;
     box-shadow: 0px 0px 10px #b9b9b9;
-    position: fixed;
-    z-index: 98;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -1;
 }
 
-.menu {
-    width: auto;
-    position: fixed;
-    z-index: 99;
-    margin-top: -1.4%;
-}
-
-.menu ul {
-    display: inline-flex;
-    margin: 50px;
-}
-
-.menu ul li {
+nav ul {
+    display: flex;
     list-style: none;
+    width: 70%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
     font-size: 20px;
-    margin: 0 50px;
-    font-weight: 500;
-    color: #000000;
-    cursor: pointer;
+    padding: 0px 50px;
 }
 
-.logo img {
-    width: 120px;
-    margin-top: -17px;
-    margin-left: 20px;
-}
-
-.active {
-    color: black;
-    text-decoration: none;
-}
-
-.tentang {
-    color: #2EC67A;
-    text-decoration: none;
-}
-
-.active:hover {
-    color: #2EC67A;
-    transition: color .6s;
-}
-
-.jualbeli {
-    color: black;
-    text-decoration: none;
-}
-
-.jualbeli:hover {
+nav ul li a:hover {
     color: #2EC67A;
     transition: color .6s;
 }
 
 .daftar {
-    top: 38px;
-    right: -200px;
-    position: absolute;
-    text-decoration: none;
-    color: #000000;
+    background-color: #2EC67A;
+    border-radius: 30px;
+    z-index: 2;
     border: 2px solid transparent;
     padding: 10px 15px;
-    border-color: #2EC67A;
-    border-radius: 30px;
-    background-image: linear-gradient(#2EC67A, #2EC67A);
-    box-shadow: 0px 0px 20px #b9b9b9
+}
+
+.active {
+    color: #2EC67A;
+}
+
+.active:hover {
+    color: #000000;
+    transition: color.6s;
 }
 
 .daftar:hover {
-    top: 34px;
-    transition: top .7s;
+    color: white;
+    transition: color.6s;
 }
 
-.masuk {
-    z-index: 999999;
-    top: 50px;
-    right: -75px;
+.logo img {
+    width: 55%;
+    margin-left: 25px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
     position: absolute;
-    text-decoration: none;
-    color: #000000;
+    width: 40px;
+    height: 30px;
+    left: 81.2%;
+    top: 24.8px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
 }
 
-.masuk img {
-    width: 30px;
-    margin: -4px 35px;
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0)
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.dropdown .dropbtn {
+    display: flex;
+    color: black;
+    border: none;
+    background-color: inherit;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    margin: 0px -25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 120px;
+    z-index: 99999;
+    margin: 2% -3%;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #ffffff;
+    width: 90px;
+    color: black;
+    z-index: 9999;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {
+    color: black;
+    background-image: linear-gradient(#2EC67A, #2EC67A);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .deskripsi {
@@ -118,6 +164,7 @@ body {
     left: 8%;
     position: absolute;
     color: #000000;
+    animation-delay: 1s;
 }
 
 .deskripsi h1 {
@@ -139,6 +186,8 @@ body {
 .deskripsi2 {
     margin-left: 7%;
     margin-top: 20%;
+    animation-delay: 2.5s;
+    animation-duration: 3s;
 }
 
 .deskripsi2 h1 {
@@ -164,6 +213,7 @@ body {
     width: 10%;
     margin-left: 88%;
     margin-top: -20%;
+    animation-duration: 4.5s;
 }
 
 .gambar2 {
@@ -410,44 +460,191 @@ body {
     transition: .6s;
 }
 
-.dropdown .dropbtn {
-    font-size: 20px;
-    color: black;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    z-index: 999999;
-    right: -6%;
-    position: absolute;
-    text-decoration: none;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    width: 120px;
-    z-index: 99999;
-    margin: 2% 8%;
-}
-
-.dropdown-content a {
-    float: none;
-    padding: 15px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    background-color: #ffffff;
-    width: 90px;
-    color: black;
-    z-index: 9999;
-    font-size: 18px;
-}
-
-.dropdown-content a:hover {
-    color: black;
-    background-image: linear-gradient(#2EC67A, #2EC67A);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: #47fca1;
+        border-radius: 0px;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #47fca1;
+        transform: translateX(100%);
+        transition: all 1s;
+        z-index: -0.5;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    .logo img {
+        padding: 0px 40%;
+    }
+    nav ul.slide {
+        transform: translateX(0);
+    }
+    .daftar {
+        background-color: #47fca1;
+    }
+    .active {
+        color: #000000;
+    }
+    .active:hover {
+        color: #ffffff;
+        transition: color.6s;
+    }
+    .dropdown-content {
+        margin: 6% -12%;
+        z-index: 3;
+    }
+    .deskripsi h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: -4%;
+        width: 110%;
+        z-index: -1;
+    }
+    .gambar {
+        top: 18%;
+        margin-left: -9%;
+        width: 75%;
+    }
+    .deskripsi2 h1 {
+        font-size: 22px;
+        margin: 31% -5%;
+        text-align: center;
+    }
+    .deskripsi2 p {
+        margin: -35% -3%;
+        width: 100%;
+    }
+    .border {
+        padding-top: 55%;
+        padding-right: 35%;
+        z-index: -990;
+        position: relative;
+        margin-top: -85%;
+        height: 30%;
+    }
+    .gambar1 {
+        display: none;
+    }
+    .gambar2 {
+        margin: 0.2% 2%;
+        width: 97%;
+    }
+    .gambar3 {
+        margin: -3.2% 2%;
+        width: 97%;
+    }
+    .deskripsi3 {
+        display: none;
+    }
+    .deskripsi4 p {
+        margin: -100% 30%;
+        font-size: 18px;
+        width: 100%;
+    }
+    .deskripsi4 h1 {
+        margin: 110% 30%;
+        font-size: 18px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .deskripsi4 button {
+        margin: -120% 55%;
+    }
+    .deskripsi5 p {
+        margin: -50% 27%;
+        font-size: 18px;
+        width: 100%;
+    }
+    .deskripsi5 h1 {
+        font-size: 18px;
+        margin: 50% 25%;
+        width: 100%;
+        line-height: 25px;
+    }
+    .deskripsi5 button {
+        margin: -53% 51%;
+    }
+    .deskripsi6 h1 {
+        margin-top: 85%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .deskripsi6 p {
+        margin: -5% -3%;
+        font-size: 17px;
+    }
+    .gambar5 {
+        width: 85%;
+        margin: -120% 7%;
+    }
+    .gambar7 {
+        display: none;
+    }
+    .gambar8 {
+        margin-top: 5%;
+        margin-left: 40%;
+        width: 25%;
+    }
+    .gambar9 {
+        margin-top: 5%;
+    }
+    .text6 h1 {
+        font-size: 22px;
+        margin-left: 20%;
+    }
+    .text6 p {
+        font-size: 16px;
+        margin-left: 20%;
+    }
+    .text7 h1 {
+        font-size: 22px;
+        margin-left: 20%;
+    }
+    .text7 p {
+        font-size: 16px;
+        margin-left: 20%;
+    }
+    .text8 h1 {
+        font-size: 24px;
+        margin: 250% -350%;
+    }
+    .gambar19 {
+        margin-top: -225%;
+        margin-left: -235%;
+    }
+    .gambar20,
+    .gambar21,
+    .gambar22 {
+        margin-top: -225%;
+    }
+    .gambar6 {
+        display: none;
+    }
+    .gambar19:hover {
+        margin-top: -240%;
+        transition: .6s;
+    }
+    .gambar20:hover {
+        margin-top: -240%;
+        transition: .6s;
+    }
+    .gambar21:hover {
+        margin-top: -240%;
+        transition: .6s;
+    }
+    .gambar22:hover {
+        margin-top: -240%;
+        transition: .6s;
+    }
 }
