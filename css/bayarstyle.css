@@ -13,17 +13,6 @@ body {
     height: 100%;
 }
 
-.borderrr {
-    margin-top: -3.8%;
-    padding: 4.7% 50%;
-    background-color: #ffffff;
-    border: 2 #000000;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px #b9b9b9;
-    position: fixed;
-    z-index: 98;
-}
-
 .menu {
     margin-top: -1.4%;
     position: fixed;
@@ -107,10 +96,11 @@ body {
     margin-left: 5%;
 }
 
-.bank {
+.bank p {
     margin-left: 25%;
-    margin-top: -2.5%;
+    margin-top: -5%;
     font-size: 22px;
+    padding: 20px;
 }
 
 .kode {
@@ -126,4 +116,41 @@ body {
 
 .petunjuk ul li span {
     color: #808080;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo img {
+        margin: -100% 165%;
+        padding: -4% 40%;
+        display: none;
+    }
+    .menu ul li a {
+        margin: -50px 30px;
+        display: none;
+    }
+    .mandiri {
+        width: 200px;
+        padding: -10%;
+        margin-left: 40%;
+        display: flex;
+    }
+    .bank p {
+        display: flex;
+        font-size: 18px;
+        width: 51%;
+        margin: 10px 30%;
+        padding: 10px;
+    }
+    .petunjuk p {
+        margin: -5% -2%;
+        padding: 10px 5px;
+        width: 90%;
+    }
+    .petunjuk ul {
+        margin: 10% 7%;
+    }
 }

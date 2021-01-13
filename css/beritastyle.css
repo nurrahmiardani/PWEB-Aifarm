@@ -1,115 +1,118 @@
-    * {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-}
-
-.borderrr {
-    margin-top: -11%;
-    padding: 5% 50%;
+nav {
+    display: flex;
     background-color: #ffffff;
-    border: 2 #000000;
-    border-radius: 50px;
     box-shadow: 0px 0px 10px #b9b9b9;
-    position: fixed;
-    z-index: 98;
-    animation-delay: 2s;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
-.menu {
-    width: auto;
-    position: fixed;
-    z-index: 99;
-    margin-top: -8.5%;
-}
-
-.menu ul {
-    display: inline-flex;
-    margin: 50px;
-}
-
-.menu ul li {
+nav ul {
+    display: flex;
     list-style: none;
+    width: 70%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
     font-size: 20px;
-    margin: 0 50px;
-    font-weight: 500;
-    color: #000000;
-    cursor: pointer;
+    padding: 0px 50px;
 }
 
-.logo img {
-    width: 120px;
-    margin-top: -17px;
-    margin-left: 20px;
-}
-
-.active {
-    color: #2EC67A;
-    text-decoration: none;
-}
-
-.tentang {
-    color: black;
-    text-decoration: none;
-}
-
-.tentang:hover {
-    color: #2EC67A;
-    transition: color .6s;
-}
-
-.jualbeli {
-    color: black;
-    text-decoration: none;
-}
-
-.jualbeli:hover {
+nav ul li a:hover {
     color: #2EC67A;
     transition: color .6s;
 }
 
 .daftar {
-    top: 38px;
-    right: -200px;
-    position: absolute;
-    text-decoration: none;
-    color: #000000;
+    background-color: #2EC67A;
+    border-radius: 30px;
+    z-index: 2;
     border: 2px solid transparent;
     padding: 10px 15px;
-    border-color: #2EC67A;
-    border-radius: 30px;
-    background-image: linear-gradient(#2EC67A, #2EC67A);
-    box-shadow: 0px 0px 20px #b9b9b9
+}
+
+.active {
+    color: #2EC67A;
+}
+
+.active:hover {
+    color: #000000;
+    transition: color.6s;
 }
 
 .daftar:hover {
-    top: 34px;
-    transition: top .7s;
+    color: white;
+    transition: color.6s;
 }
 
-.masuk {
-    z-index: 999999;
-    top: 50px;
-    right: -75px;
+.logo img {
+    width: 55%;
+    margin-left: 25px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
     position: absolute;
-    text-decoration: none;
-    color: #000000;
+    width: 40px;
+    height: 30px;
+    left: 81.2%;
+    top: 24.8px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
 }
 
-.masuk:hover {
-    color: #2EC67A;
-    transition: color .6s;
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
 }
 
-.masuk img {
-    width: 30px;
-    margin: -4px 20px;
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0)
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 .berita1 {
@@ -269,3 +272,105 @@
     width: 200px;
     height: 200px;
     margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: #47fca1;
+        border-radius: 0px;
+        z-index: 999;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #47fca1;
+        transform: translateX(100%);
+        transition: all 1s;
+        z-index: -0.5;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    .logo img {
+        padding: 0px 40%;
+        z-index: 999;
+    }
+    nav ul.slide {
+        transform: translateX(0);
+    }
+    .daftar {
+        background-color: #47fca1;
+    }
+    .active {
+        color: #000000;
+    }
+    .active:hover {
+        color: #ffffff;
+        transition: color.6s;
+    }
+    .berita1 {
+        margin: 35px 25px;
+        width: 90%;
+        z-index: -9999;
+    }
+    .tulisan {
+        margin: -120px 160px;
+        font-size: 14px;
+        width: 250px;
+        z-index: -9999;
+    }
+    .keterangan {
+        margin: 10px 160px;
+        font-size: 12px;
+        width: 260px;
+        z-index: -9999;
+    }
+    .sel {
+        margin: -80px 160px;
+        font-size: 12px;
+        z-index: -9999;
+    }
+    .berita2 {
+        margin: 35px 25px;
+        width: 89%;
+        z-index: -9999;
+    }
+    .keterangan2 {
+        margin: 10px 160px;
+        font-size: 12px;
+        width: 260px;
+        z-index: -9999;
+    }
+    .sel2 {
+        margin: -80px 160px;
+        font-size: 12px;
+        z-index: -9999;
+    }
+    .berita3 {
+        margin: 35px 25px;
+        width: 89%;
+        z-index: -9999;
+    }
+    .keterangan3 {
+        margin: 10px 160px;
+        font-size: 12px;
+        width: 260px;
+        z-index: -9999;
+    }
+    .sel3 {
+        margin: -70px 160px;
+        font-size: 12px;
+        z-index: -9999;
+    }
+    .padi {
+        display: none;
+    }
+}
