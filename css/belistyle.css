@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 * {
@@ -12,8 +13,9 @@ body {
     height: 100%;
     background: #ffffff
 }
-ul{
-    list-style:none;
+
+ul {
+    list-style: none;
 }
 
 .borderrr {
@@ -169,19 +171,22 @@ ul{
     margin-left: 102%;
     width: 5%;
 }
-.komoditi h1{
+
+.komoditi h1 {
     padding-top: 20%;
 }
+
 .kolom1 {
     margin-top: -30%;
-    margin-right: 5.5%;
-    padding-left: 7%;
-    display:flex;
-	justify-content: center;
-	align-items: center;
+    margin-right: 7%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: -10%;
 }
 
-.flex{
+.flex {
     display: flex;
     margin-left: -2%;
     position: absolute
@@ -191,20 +196,20 @@ ul{
 .kol2,
 .kol3,
 .kol4 {
-    width:310px;
-	height:380px;
-    margin-top: 6%;
-    padding-top: 15%;
+    width: 97%;
+    height: 380px;
+    margin-top: 10%;
+    padding-top: 18%;
     padding-left: 4%;
+    margin-left: 5%;
     background-color: #ffffff;
     border-radius: 10px;
-    margin-left: 5%;
     box-shadow: 0px 10px 15px #d4d4d4;
     cursor: pointer;
     justify-content: space-between;
-	flex-direction: column;
-	box-sizing: border-box;
-	margin: 20px 7px;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 5%;
 }
 
 .kol1:hover {
@@ -272,11 +277,15 @@ ul{
     padding-bottom: 8%;
 }
 
+
 /*KOLOM 2 BOS*/
+
 .kolom2 {
     margin-top: -39%;
-    padding-left: 8%;
+    padding-left: 2%;
+    margin-left: 5%;
 }
+
 .kolom2 h1 {
     line-height: 500%;
     font-size: 30px;
@@ -301,6 +310,7 @@ ul{
     margin-left: 1.5%;
     box-shadow: 0px 10px 25px #d4d4d4;
     cursor: pointer;
+    width: 21%;
 }
 
 .kol5:hover {
@@ -373,11 +383,13 @@ ul{
     color: black;
 }
 
+
 /*KOLOM 3 BOS*/
 
 .kolom3 {
     margin-top: 25%;
-    padding-left: 8%;
+    padding-left: 2%;
+    margin-left: 5%;
 }
 
 .kolom3 h1 {
@@ -403,6 +415,7 @@ ul{
     margin-left: 1.5%;
     box-shadow: 0px 10px 25px #d4d4d4;
     cursor: pointer;
+    width: 21%;
 }
 
 .kol9:hover {
@@ -471,7 +484,7 @@ ul{
 }
 
 .image99 {
-    margin-top: -102%;
+    margin-top: -110%;
     margin-left: 89%;
     z-index: 70;
     position: absolute;
@@ -479,7 +492,8 @@ ul{
 }
 
 .image99 li {
-    margin-top: 400%;
+    margin-top: 395%;
+    margin-left: 17%;
     list-style: none;
 }
 
