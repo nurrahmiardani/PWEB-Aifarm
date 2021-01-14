@@ -174,6 +174,7 @@ ul{
 }
 .kolom1 {
     margin-top: -30%;
+    margin-right: 5.5%;
     padding-left: 7%;
     display:flex;
 	justify-content: center;
@@ -198,7 +199,7 @@ ul{
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 5%;
-    box-shadow: 0px 10px 25px #d4d4d4;
+    box-shadow: 0px 10px 15px #d4d4d4;
     cursor: pointer;
     justify-content: space-between;
 	flex-direction: column;
@@ -471,7 +472,7 @@ ul{
 
 .image99 {
     margin-top: -102%;
-    margin-left: 90%;
+    margin-left: 89%;
     z-index: 70;
     position: absolute;
     cursor: pointer;
