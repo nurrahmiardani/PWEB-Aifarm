@@ -172,3 +172,38 @@ button {
     color: #33d684;
     transition: color.6s;
 }
+
+@media screen and (max-width: 768px) {
+    .text {
+        margin-top: -7%;
+        width: 100%;
+    }
+    .text h1 {
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .registration p {
+        font-size: 16px;
+    }
+    .registration {
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .registration input {
+        width: 155%;
+    }
+    .registration button {
+        width: 30%;
+        margin-left: 30%;
+    }
+    .registration button:hover {
+        margin: 5px 30%;
+        transition: margin.1s;
+    }
+    .registration img {
+        width: 50%;
+        margin-left: -76%;
+    }
+}
